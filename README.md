@@ -44,3 +44,9 @@
 10. show text when clicked
 11. show text list when clicked
 ```
+
+### **04. Basic Data Load (+sub ipynb notebook)**
+```
+1. Make Function
+2. Load Data
+```
