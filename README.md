@@ -50,3 +50,9 @@
 1. Make Function
 2. Load Data
 ```
+
+### **05. Data_Load_Using_cache**
+```
+1. Make Function with cache
+2. Load Data
+```
