@@ -31,6 +31,7 @@
 ```
 ### **03. Start Streamlit**
 ```
+0. Progress Bar
 1. write + text
 2. write + DataFrame
 3. No write + DataFrame

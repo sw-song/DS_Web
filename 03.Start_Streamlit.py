@@ -5,6 +5,7 @@ import pandas as pd
 
 st.title('Start Streamlit')
 st.markdown('''
+0. Progress Bar
 1. write + text
 2. write + DataFrame
 3. No write + DataFrame
@@ -18,6 +19,24 @@ st.markdown('''
 11. show text list when clicked
 ''')
 st.markdown("---")
+
+## progress bar
+st.subheader('0. Progress Bar')
+import time
+st.info('Downloading data from server...')
+
+### Add a placeholder 
+latest_iteration = st.empty()
+bar = st.progress(0)
+
+for i in range(100):
+    ### Update the progress bar with each iteration.
+    latest_iteration.text(f'Iteration {i+1}')
+    bar.progress(i+1)
+    time.sleep(0.1)
+
+st.success('All data has been loaded!')
+
 ## write + text
 st.subheader('1. write + text')
 st.write('This is text')
